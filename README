@@ -1,0 +1,16 @@
+These two files are the Google AppEngine implementation of the Kinds of a Thing / Things of a Kind 
+database project.  Just drop these two files into the root directory for your AppEngine project,
+deploy the project, and you should be up and running.  Hopefully.
+
+To test, using CURL, try the following:
+
+>curl 'http://your-implementation-name.appspot.com/?k1=this&k2=that'
+
+Which should return '[]', the JSON for an empty array.
+
+Full details at the website, http://kindsofathing.com
+
+Thanks!
+
+Mark Pesce
+mpesce AT gmail DOT com 
